@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <title>TableTop Design</title>
+    <th:block th:include="generic-includes :: includes"></th:block>
+</head>
+<body>
+
+    <div th:replace="navigation :: navigation"></div>
+
+
+    <div class="content" layout:fragment="content">
+
+    </div>
+
+    <div th:replace="footer :: footer"></div>
+
+</body>
+</html>
