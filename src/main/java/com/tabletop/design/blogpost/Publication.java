@@ -11,7 +11,7 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
-public class Blog {
+public class Publication {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
